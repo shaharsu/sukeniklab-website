@@ -1,0 +1,55 @@
+title: Sukenik Lab
+tagline: Developing solutions to control protein function in health and disease
+description: >-
+  The Sukenik Lab studies the chemical principles governing how proteins interact
+  with their surrounding environment, in the test tube and in cells. Part of the
+  Department of Chemistry at Syracuse University.
+
+# --- Hosting -------------------------------------------------------------
+# Serving from a GitHub Pages project subpath. To move to sukeniklab.com:
+#   1. set  url: "https://www.sukeniklab.com"  and  baseurl: ""
+#   2. create a CNAME file at the repo root containing:  www.sukeniklab.com
+#   3. point the domain's DNS at GitHub Pages
+url: ""
+baseurl: "/sukeniklab-website"
+
+email: ssukenik@syr.edu
+address_lines:
+  - Sukenik Lab
+  - 244 Life Sciences Complex
+  - 107 College Pl, Syracuse, NY 13210
+copyright: "© 2024 Sukenik Lab"
+scholar_url: "https://scholar.google.com/citations?user=MID9HCgAAAAJ&hl=en"
+
+collections:
+  people:
+    output: false
+  publications:
+    output: false
+  news:
+    output: false
+  research:
+    output: false
+
+defaults:
+  - scope: {path: ""}
+    values: {layout: page}
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts/
+  - vendor/

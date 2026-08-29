@@ -1,0 +1,22 @@
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+vendor/
+.bundle/
+Gemfile.lock
+
+# Claude Code: local working notes, settings, and the SessionStart hook script.
+# Personal tooling, not part of the site.
+CLAUDE.md
+.claude/
+scripts/session-status.py
+
+# Editor / OS cruft
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

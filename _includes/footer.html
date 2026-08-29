@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <img class="footer-logo" src="{{ '/assets/images/site/su-arts-sciences-footer.jpg' | relative_url }}"
+         alt="Syracuse University College of Arts &amp; Sciences" width="186" height="42" loading="lazy">
+    <p class="copyright">{{ site.copyright }}</p>
+    <address class="footer-address">
+      {%- for line in site.address_lines -%}
+      {{ line }}{% unless forloop.last %}<br>{% endunless %}
+      {%- endfor -%}
+    </address>
+  </div>
+</footer>
