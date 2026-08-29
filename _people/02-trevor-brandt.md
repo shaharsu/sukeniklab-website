@@ -1,9 +1,9 @@
 ---
 name: Trevor Brandt
-role: Lab Manager/Assistant
+role: Graduate Student
 order: 2
 photo: /assets/images/team/trevor-brandt.jpg
 emails:
   - trBrandt@syr.edu
 ---
-Assisting with things ; live cell FRET imaging of IDR ensemble dimensions
+Pooled optical screens of FRET reporters
