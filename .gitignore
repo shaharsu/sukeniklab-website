@@ -20,3 +20,6 @@ scripts/session-status.py
 *.swp
 .DS_Store
 Thumbs.db
+
+# WSL alternate-data-stream sidecars
+*:Zone.Identifier
