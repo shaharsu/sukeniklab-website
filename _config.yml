@@ -11,7 +11,7 @@ description: >-
 #   2. create a CNAME file at the repo root containing:  www.sukeniklab.com
 #   3. point the domain's DNS at GitHub Pages
 url: ""
-baseurl: "/sukeniklab-website"
+baseurl: "sukeniklab.com"
 
 email: ssukenik@syr.edu
 address_lines:
