@@ -1,19 +1,20 @@
-/* Sukenik Lab — palette and type carried over from the previous Wix site.
-   green #87B145 / #D3E5B6 / #2D3B17, navy #17384F, Raleway + Poppins. */
+/* Sukenik Lab — type carried over from the previous Wix site; the accent palette
+   was changed from the Wix greens to orange #E08B2F / #F5D9B5 / #4A2A08.
+   Navy #17384F, Raleway + Poppins. */
 
 :root {
-  --green:        #87b145;
-  --green-light:  #d3e5b6;
-  --green-pale:   #f2f7ea;
-  --green-dark:   #5a762e;
-  --green-deep:   #2d3b17;
-  --navy:         #17384f;
-  --ink:          #2a2a2a;
-  --muted:        #545454;
-  --rule:         #e4e4e4;
-  --wrap:         1080px;
-  --sans:         'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --display:      'Poppins', 'Raleway', Helvetica, Arial, sans-serif;
+  --orange:        #e08b2f;
+  --orange-light:  #f5d9b5;
+  --orange-pale:   #fdf5ec;
+  --orange-dark:   #a35d12;
+  --orange-deep:   #4a2a08;
+  --navy:          #17384f;
+  --ink:           #2a2a2a;
+  --muted:         #545454;
+  --rule:          #e4e4e4;
+  --wrap:          1080px;
+  --sans:          'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --display:       'Poppins', 'Raleway', Helvetica, Arial, sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -30,8 +31,8 @@ body {
 
 img { max-width: 100%; height: auto; }
 
-a { color: var(--green-dark); text-decoration: none; }
-a:hover, a:focus { color: var(--green-deep); text-decoration: underline; }
+a { color: var(--orange-dark); text-decoration: none; }
+a:hover, a:focus { color: var(--orange-deep); text-decoration: underline; }
 
 h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; color: var(--navy); }
 
@@ -52,20 +53,20 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; c
   font-family: var(--display); font-weight: 600; font-size: 1.28rem;
   letter-spacing: .06em; color: var(--navy); white-space: nowrap;
 }
-.wordmark:hover { color: var(--green-dark); text-decoration: none; }
+.wordmark:hover { color: var(--orange-dark); text-decoration: none; }
 
 .site-nav ul { display: flex; align-items: center; gap: 22px; list-style: none; margin: 0; padding: 0; }
 .site-nav a {
   font-size: .8rem; font-weight: 600; letter-spacing: .09em;
   color: var(--navy); padding: 6px 0; border-bottom: 2px solid transparent;
 }
-.site-nav a:hover, .site-nav a.current { color: var(--green-dark); border-bottom-color: var(--green); text-decoration: none; }
+.site-nav a:hover, .site-nav a.current { color: var(--orange-dark); border-bottom-color: var(--orange); text-decoration: none; }
 
 .btn-join {
-  background: var(--green); color: #fff !important;
+  background: var(--orange); color: #fff !important;
   padding: 9px 18px !important; border-radius: 2px; border-bottom: none !important;
 }
-.btn-join:hover { background: var(--green-dark); }
+.btn-join:hover { background: var(--orange-dark); }
 
 .nav-toggle, .nav-toggle-label { display: none; }
 
@@ -88,32 +89,32 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; c
 }
 .page-head h1::after {
   content: ""; display: block; width: 62px; height: 4px;
-  background: var(--green); margin-top: 14px;
+  background: var(--orange); margin-top: 14px;
 }
 .subtitle { margin: 16px 0 0; font-size: 1.1rem; color: var(--muted); max-width: 62ch; }
 
 .section { margin-bottom: 56px; }
 .section > h2 {
   font-size: 1.05rem; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--green-dark); margin: 0 0 20px;
+  color: var(--orange-dark); margin: 0 0 20px;
 }
 
 /* ---------- home ---------- */
 
-.hero { background: var(--green-pale); border-bottom: 1px solid var(--green-light); padding: 68px 0 60px; }
+.hero { background: var(--orange-pale); border-bottom: 1px solid var(--orange-light); padding: 68px 0 60px; }
 .hero h1 {
-  margin: 0; font-size: 1rem; letter-spacing: .18em; text-transform: uppercase; color: var(--green-dark);
+  margin: 0; font-size: 1rem; letter-spacing: .18em; text-transform: uppercase; color: var(--orange-dark);
 }
 .hero p.lede {
   margin: 18px 0 28px; max-width: 22ch;
   font-family: var(--display); font-size: 2.5rem; font-weight: 600; line-height: 1.18; color: var(--navy);
 }
 .btn {
-  display: inline-block; background: var(--green); color: #fff;
+  display: inline-block; background: var(--orange); color: #fff;
   font-weight: 600; font-size: .82rem; letter-spacing: .09em; text-transform: uppercase;
   padding: 13px 30px; border-radius: 2px;
 }
-.btn:hover { background: var(--green-dark); color: #fff; text-decoration: none; }
+.btn:hover { background: var(--orange-dark); color: #fff; text-decoration: none; }
 
 .about { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 48px; align-items: start; }
 .about p { margin-top: 0; }
@@ -126,12 +127,12 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; c
 
 .research-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .research-card {
-  background: var(--green-pale); border: 1px solid var(--green-light);
+  background: var(--orange-pale); border: 1px solid var(--orange-light);
   border-radius: 3px; padding: 26px 22px; text-align: center;
 }
 .research-card img { height: 62px; width: auto; object-fit: contain; margin-bottom: 14px; }
 .research-card h3 {
-  margin: 0 0 8px; font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; color: var(--green-dark);
+  margin: 0 0 8px; font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; color: var(--orange-dark);
 }
 .research-card p { margin: 0; font-size: .95rem; color: var(--muted); }
 
@@ -144,8 +145,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; c
 /* ---------- papers ---------- */
 
 .pub-year {
-  margin: 44px 0 18px; font-family: var(--display); font-size: 1.6rem; color: var(--green);
-  border-bottom: 2px solid var(--green-light); padding-bottom: 6px;
+  margin: 44px 0 18px; font-family: var(--display); font-size: 1.6rem; color: var(--orange);
+  border-bottom: 2px solid var(--orange-light); padding-bottom: 6px;
 }
 .pub-year:first-of-type { margin-top: 24px; }
 
@@ -160,21 +161,21 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; c
 .pub-link {
   display: inline-block; margin-top: 9px; font-size: .78rem; font-weight: 600;
   letter-spacing: .08em; text-transform: uppercase;
-  color: var(--green-dark); border: 1px solid var(--green); border-radius: 2px; padding: 4px 12px;
+  color: var(--orange-dark); border: 1px solid var(--orange); border-radius: 2px; padding: 4px 12px;
 }
-.pub-link:hover { background: var(--green); color: #fff; text-decoration: none; }
+.pub-link:hover { background: var(--orange); color: #fff; text-decoration: none; }
 
 /* ---------- team ---------- */
 
 .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 34px 28px; }
 .person-photo {
   width: 120px; height: 123px; object-fit: cover; border-radius: 3px;
-  display: block; margin-bottom: 12px; background: var(--green-pale);
+  display: block; margin-bottom: 12px; background: var(--orange-pale);
 }
 .person h3 { margin: 0; font-size: 1.05rem; }
 .person .role {
   margin: 2px 0 8px; font-size: .78rem; font-weight: 600;
-  letter-spacing: .09em; text-transform: uppercase; color: var(--green-dark);
+  letter-spacing: .09em; text-transform: uppercase; color: var(--orange-dark);
 }
 .person p.blurb { margin: 0 0 8px; font-size: .92rem; color: var(--muted); }
 .person .person-links { font-size: .85rem; }
@@ -185,7 +186,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; c
 .alumni b { color: var(--ink); font-weight: 600; }
 
 .join { display: grid; grid-template-columns: 188px minmax(0, 1fr); gap: 32px; align-items: center;
-  background: var(--green-pale); border: 1px solid var(--green-light); border-radius: 3px; padding: 30px; }
+  background: var(--orange-pale); border: 1px solid var(--orange-light); border-radius: 3px; padding: 30px; }
 .join img { width: 188px; border-radius: 3px; }
 .join h2 { margin-top: 0; }
 
@@ -194,7 +195,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; c
 .news-item { padding: 26px 0; border-bottom: 1px solid var(--rule); }
 .news-date {
   margin: 0 0 6px; font-family: var(--display); font-size: .8rem; font-weight: 600;
-  letter-spacing: .09em; text-transform: uppercase; color: var(--green-dark);
+  letter-spacing: .09em; text-transform: uppercase; color: var(--orange-dark);
 }
 .news-item p { margin: 0 0 12px; }
 .news-figures { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; }

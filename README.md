@@ -113,6 +113,7 @@ The three summary cards under the intro live in `_data/research_cards.yml`.
 
 - Site-wide text (address, PI email, copyright, Google Scholar URL) lives in `_config.yml`.
 - The nav is `_data/nav.yml`.
-- Colours and fonts are the Wix ones: greens `#87b145` / `#d3e5b6` / `#2d3b17`, navy
-  `#17384f`, Raleway + Poppins. All defined as CSS variables at the top of
+- Fonts are the Wix ones: Raleway + Poppins. The accent palette is not: the Wix
+  greens were replaced with oranges `#e08b2f` / `#f5d9b5` / `#4a2a08`. Navy
+  `#17384f` is unchanged. All defined as CSS variables at the top of
   `assets/css/style.css`.

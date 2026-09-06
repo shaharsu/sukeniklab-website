@@ -7,7 +7,7 @@ layout: default
 <section class="hero">
   <div class="wrap">
     <h1>Welcome to the Sukenik Lab</h1>
-    <p class="lede">Developing solutions to control protein function in health and disease</p>
+    <p class="lede">Studying protein structure and function in a changing environment</p>
     <a class="btn" href="{{ '/research/' | relative_url }}">The Research</a>
   </div>
 </section>
