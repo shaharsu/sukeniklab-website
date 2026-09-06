@@ -1,7 +1,7 @@
 ---
 title: Disordered proteins as sensors and actuators
 order: 1
-image: /assets/images/research/05.jpg
+image: /assets/images/research/06.png
 image_alt: Fluorescence micrograph of the cytoskeleton in a live cell
 ---
 Disordered proteins do not have a fixed three-dimensional form, and exist instead
