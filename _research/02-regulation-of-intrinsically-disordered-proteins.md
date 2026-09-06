@@ -1,7 +1,7 @@
 ---
 title: Protecting proteomes from stress
 order: 2
-image: /assets/images/research/05.png
+image: /assets/images/research/05.jpg
 image_alt: NA
 ---
 Countless organisms experience environmental stress as part of their life. Evolution
