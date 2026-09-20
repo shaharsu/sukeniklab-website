@@ -6,8 +6,8 @@ permalink: /papers/
 <p class="subtitle">Selected publications from recent years. A complete publication list can
 be found on <a href="{{ site.scholar_url }}">Google Scholar</a>.</p>
 
-{% assign pubs = site.publications | sort: "order" %}
-{% assign years = pubs | group_by: "year" | sort: "name" | reverse %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign years = pubs | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" | reverse %}
 
 {%- for group in years %}
 <h2 class="pub-year" id="y{{ group.name }}">{{ group.name }}</h2>

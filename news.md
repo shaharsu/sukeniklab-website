@@ -3,7 +3,7 @@ title: Lab news
 permalink: /news/
 ---
 
-{% assign items = site.news | sort: "order" %}
+{% assign items = site.news | sort: "date" | reverse %}
 {%- for item in items %}
 <article class="news-item">
   <p class="news-date">{{ item.date_display }}</p>

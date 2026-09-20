@@ -34,22 +34,27 @@ Nothing needs to be registered anywhere — drop the file in and it appears.
 
 ### A paper → `_publications/`
 
-Filename `YYYY-NN-short-slug.md`. `order` controls position (ascending), both across
-the page and within a year, so use a number lower than the current first paper to
-put a new one on top.
+Filename `YYYY-MM-DD-short-slug.md`. Drop the file in and you are done: the page
+sorts on `date:`, newest first, and the year headings are derived from it. Nothing
+else needs renumbering.
 
 ```markdown
 ---
 title: "Full paper title"
 authors: "A Author, B Author, S Sukenik"
 venue: "Journal Name, Volume 1, 100000"     # optional
-year: 2026
-order: 0
+date: 2026-01-15
 link_label: Article                          # Article | Preprint | Review
 link: "https://doi.org/..."
 image: /assets/images/papers/my-figure.jpg   # optional thumbnail
 ---
 ```
+
+`date:` is the publication date and is the only thing that controls position. There
+is no separate `year:` field — the year heading a paper appears under comes from
+`date:`. If the publisher only gives a month, use the 1st; the displayed citation
+comes from `venue`, not from `date`. Crossref (`https://api.crossref.org/works/<doi>`)
+is a quick way to look a date up.
 
 ### A team member → `_people/`
 
@@ -76,14 +81,13 @@ When someone leaves, delete their file and add a line to `_data/alumni.yml`.
 
 ### A news item → `_news/`
 
-Filename `YYYY-MM-DD-.md`. `order: 1` is the top of the page; bump the others or just
-use `0` for a new item at the top.
+Filename `YYYY-MM-DD.md`. Drop the file in and you are done: the page sorts on the
+`date:` field, newest first. Nothing else needs renumbering.
 
 ```markdown
 ---
 date: 2026-01-15
 date_display: "Jan 15, 2026"
-order: 0
 images:                                      # optional
   - src: /assets/images/news/photo.jpg
     caption: "Optional caption"
@@ -91,8 +95,9 @@ images:                                      # optional
 The text of the item, with [links](https://example.com) in markdown.
 ```
 
-`order` exists because the page is not in strict date order — it reproduces the
-ordering the Wix site had.
+`date:` must be a real ISO date — it drives the sort. `date_display` is the free
+text shown on the page and can be anything ("Feb 10-14 '24"). For two items on the
+same day, add a letter to the filename (`2026-01-15b.md`).
 
 ### A research theme → `_research/`
 
