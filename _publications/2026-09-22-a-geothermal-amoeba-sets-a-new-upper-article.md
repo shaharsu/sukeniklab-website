@@ -5,5 +5,5 @@ venue: "Cell. Published online September 22, 2026"
 date: 2026-09-22
 link_label: Article
 link: "https://doi.org/10.1016/j.cell.2026.08.043"
-image: /assets/images/papers/35-1-s2-0-s0092867426010160-gr1.jpg
+image: /assets/images/papers/35-1-s2-0-s0092867426010160-gr4-bottom.jpg
 ---
