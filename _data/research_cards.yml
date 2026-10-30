@@ -1,6 +1,6 @@
 - title: Protein biophysics
-  text: Proteins are sensitive to changes in their surrounding solution
+  text: Proteins are sensitive to changes in their environment
 - title: Our goal
-  text: A molecular-level understanding of how cellular changes affect protein function
+  text: A molecular-level understanding of how routine, pathological, or stress-induced changes in their environment affect protein function
 - title: Methods
-  text: Live cell microscopy, biophysical methods (CD, flourescence), and computational modeling
+  text: Quantitative live cell microscopy, biophysical protein characterization, high-throughput methods, proteomic mass spectrometry, and computational and machine-learning methods
