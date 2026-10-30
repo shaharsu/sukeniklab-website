@@ -169,7 +169,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.25; c
 
 .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 34px 28px; }
 .person-photo {
-  width: 120px; height: 123px; object-fit: cover; border-radius: 3px;
+  width: 100%; height: auto; aspect-ratio: 360 / 369; object-fit: cover; object-position: center; border-radius: 3px;
   display: block; margin-bottom: 12px; background: var(--orange-pale);
 }
 .person h3 { margin: 0; font-size: 1.05rem; }
